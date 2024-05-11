@@ -19,6 +19,7 @@ public class Product {
 	private Double price;
 	
 	private String status;
+	private String date;
 
 	public Integer getId() {
 		return id;
@@ -58,6 +59,14 @@ public class Product {
 
 	public void setStatus(String status) {
 		this.status = status;
+	}
+
+	public String getDate() {
+		return date;
+	}
+
+	public void setDate(String date) {
+		this.date = date;
 	}
 	
 	
